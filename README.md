@@ -3,65 +3,108 @@
 ```
 threat-hunting-portfolio/
 │
-├── readme.md
+├── README.md
 │
 ├── 01-reconnaissance/
 │   ├── t1595-active-scanning/
-│   │   └── hunt-active-scanning/
-│   │       ├── hypothesis.md
-│   │       ├── data-sources.md
-│   │       ├── queries/
-│   │       ├── analysis.md
-│   │       ├── findings.md
-│   │       └── mitre-mapping.md
+│   │   ├── hypothesis.md
+│   │   ├── data-sources.md
+│   │   ├── queries/
+│   │   ├── analysis.md
+│   │   ├── findings.md
+│   │   └── mitre-mapping.md
 │   │
 │   └── t1598-phishing-for-information/
-│       └── hunt-phishing-recon/
-│           ├── hypothesis.md
-│           ├── logs-used.md
-│           ├── detection-logic.md
-│           └── conclusions.md
+│       ├── hypothesis.md
+│       ├── data-sources.md
+│       ├── queries/
+│       ├── analysis.md
+│       └── findings.md
 │
 ├── 02-resource-development/
 │   └── t1587-malware-development/
-│       └── hunt-suspicious-build-artifacts/
+│       ├── hypothesis.md
+│       ├── data-sources.md
+│       ├── analysis.md
+│       └── findings.md
 │
 ├── 03-initial-access/
 │   ├── t1566-phishing/
-│   │   ├── hunt-phishing-attachment/
-│   │   └── hunt-phishing-link/
+│   │   ├── hypothesis.md
+│   │   ├── data-sources.md
+│   │   ├── queries/
+│   │   ├── analysis.md
+│   │   └── findings.md
 │   │
 │   └── t1190-exploit-public-facing-app/
-│       └── hunt-web-exploit-attempts/
+│       ├── hypothesis.md
+│       ├── data-sources.md
+│       ├── queries/
+│       ├── analysis.md
+│       └── findings.md
 │
 ├── 04-execution/
 │   ├── t1059-command-and-scripting-interpreter/
-│   │   ├── hunt-powershell-abuse/
-│   │   └── hunt-cmd-lolbins/
+│   │   ├── hypothesis.md
+│   │   ├── data-sources.md
+│   │   ├── queries/
+│   │   ├── analysis.md
+│   │   └── findings.md
 │   │
 │   └── t1204-user-execution/
-│       └── hunt-malicious-shortcuts/
+│       ├── hypothesis.md
+│       ├── data-sources.md
+│       ├── analysis.md
+│       └── findings.md
 │
 ├── 05-persistence/
 │   ├── t1547-boot-or-logon-autostart/
-│   │   ├── registry-run-keys/
-│   │   └── startup-folder-abuse/
+│   │   ├── hypothesis.md
+│   │   ├── data-sources.md
+│   │   ├── queries/
+│   │   ├── analysis.md
+│   │   └── findings.md
 │   │
 │   └── t1053-scheduled-task/
-│       └── hunt-scheduled-task-persistence/
+│       ├── hypothesis.md
+│       ├── data-sources.md
+│       ├── queries/
+│       ├── analysis.md
+│       └── findings.md
 │
 ├── 06-privilege-escalation/
 │   └── t1068-exploitation-for-privilege-escalation/
+│       ├── hypothesis.md
+│       ├── data-sources.md
+│       ├── analysis.md
+│       └── findings.md
 │
 ├── 07-defense-evasion/
 │   ├── t1070-indicator-removal/
+│   │   ├── hypothesis.md
+│   │   ├── data-sources.md
+│   │   ├── analysis.md
+│   │   └── findings.md
+│   │
 │   └── t1027-obfuscated-files-or-info/
+│       ├── hypothesis.md
+│       ├── data-sources.md
+│       ├── analysis.md
+│       └── findings.md
 │
 ├── 08-credential-access/
 │   ├── t1003-os-credential-dumping/
-│   │   └── hunt-lsass-access/
+│   │   ├── hypothesis.md
+│   │   ├── data-sources.md
+│   ├── queries/
+│   │   ├── analysis.md
+│   │   └── findings.md
 │   │
 │   └── t1110-brute-force/
+│       ├── hypothesis.md
+│       ├── data-sources.md
+│       ├── analysis.md
+│       └── findings.md
 │
 ├── 09-discovery/
 │   ├── t1087-account-discovery/
@@ -99,5 +142,6 @@ threat-hunting-portfolio/
 └── assets/
     ├── diagrams/
     └── screenshots/
+
 
 ```
