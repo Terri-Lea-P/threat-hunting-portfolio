@@ -3,10 +3,10 @@
 ```
 threat-hunting-portfolio/
 │
-├── README.md
+├── readme.md
 │
-├── 01-Reconnaissance/
-│   ├── T1595-Active-Scanning/
+├── 01-reconnaissance/
+│   ├── t1595-active-scanning/
 │   │   └── hunt-active-scanning/
 │   │       ├── hypothesis.md
 │   │       ├── data-sources.md
@@ -15,88 +15,89 @@ threat-hunting-portfolio/
 │   │       ├── findings.md
 │   │       └── mitre-mapping.md
 │   │
-│   └── T1598-Phishing-for-Information/
+│   └── t1598-phishing-for-information/
 │       └── hunt-phishing-recon/
 │           ├── hypothesis.md
 │           ├── logs-used.md
 │           ├── detection-logic.md
 │           └── conclusions.md
 │
-├── 02-Resource-Development/
-│   └── T1587-Malware-Development/
+├── 02-resource-development/
+│   └── t1587-malware-development/
 │       └── hunt-suspicious-build-artifacts/
 │
-├── 03-Initial-Access/
-│   ├── T1566-Phishing/
+├── 03-initial-access/
+│   ├── t1566-phishing/
 │   │   ├── hunt-phishing-attachment/
 │   │   └── hunt-phishing-link/
 │   │
-│   └── T1190-Exploit-Public-Facing-App/
+│   └── t1190-exploit-public-facing-app/
 │       └── hunt-web-exploit-attempts/
 │
-├── 04-Execution/
-│   ├── T1059-Command-and-Scripting-Interpreter/
+├── 04-execution/
+│   ├── t1059-command-and-scripting-interpreter/
 │   │   ├── hunt-powershell-abuse/
 │   │   └── hunt-cmd-lolbins/
 │   │
-│   └── T1204-User-Execution/
+│   └── t1204-user-execution/
 │       └── hunt-malicious-shortcuts/
 │
-├── 05-Persistence/
-│   ├── T1547-Boot-or-Logon-Autostart/
+├── 05-persistence/
+│   ├── t1547-boot-or-logon-autostart/
 │   │   ├── registry-run-keys/
 │   │   └── startup-folder-abuse/
 │   │
-│   └── T1053-Scheduled-Task/
+│   └── t1053-scheduled-task/
 │       └── hunt-scheduled-task-persistence/
 │
-├── 06-Privilege-Escalation/
-│   └── T1068-Exploitation-for-Privilege-Escalation/
+├── 06-privilege-escalation/
+│   └── t1068-exploitation-for-privilege-escalation/
 │
-├── 07-Defense-Evasion/
-│   ├── T1070-Indicator-Removal/
-│   └── T1027-Obfuscated-Files-or-Info/
+├── 07-defense-evasion/
+│   ├── t1070-indicator-removal/
+│   └── t1027-obfuscated-files-or-info/
 │
-├── 08-Credential-Access/
-│   ├── T1003-OS-Credential-Dumping/
+├── 08-credential-access/
+│   ├── t1003-os-credential-dumping/
 │   │   └── hunt-lsass-access/
 │   │
-│   └── T1110-Brute-Force/
+│   └── t1110-brute-force/
 │
-├── 09-Discovery/
-│   ├── T1087-Account-Discovery/
-│   └── T1046-Network-Service-Discovery/
+├── 09-discovery/
+│   ├── t1087-account-discovery/
+│   └── t1046-network-service-discovery/
 │
-├── 10-Lateral-Movement/
-│   ├── T1021-Remote-Services/
-│   └── T1550-Use-Alternate-Authentication/
+├── 10-lateral-movement/
+│   ├── t1021-remote-services/
+│   └── t1550-use-alternate-authentication/
 │
-├── 11-Command-and-Control/
-│   ├── T1071-Application-Layer-Protocol/
-│   └── T1095-Non-Application-Layer-Protocol/
+├── 11-command-and-control/
+│   ├── t1071-application-layer-protocol/
+│   └── t1095-non-application-layer-protocol/
 │
-├── 12-Exfiltration/
-│   └── T1048-Exfiltration-Over-Alt-Protocol/
+├── 12-exfiltration/
+│   └── t1048-exfiltration-over-alt-protocol/
 │
-├── 13-Impact/
-│   ├── T1486-Data-Encrypted-for-Impact/
-│   └── T1499-Endpoint-Denial-of-Service/
+├── 13-impact/
+│   ├── t1486-data-encrypted-for-impact/
+│   └── t1499-endpoint-denial-of-service/
 │
-├── 90-Shared-Queries/
+├── 90-shared-queries/
 │   ├── kql/
 │   ├── splunk/
 │   └── sigma/
 │
-├── 91-Methodology/
+├── 91-methodology/
 │   ├── hunt-lifecycle.md
 │   ├── false-positive-handling.md
 │   └── detection-tuning.md
 │
-├── 92-Tools-and-Labs/
+├── 92-tools-and-labs/
 │   ├── homelab.md
 │   └── tooling.md
 │
 └── assets/
     ├── diagrams/
     └── screenshots/
+
 ```
